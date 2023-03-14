@@ -1,7 +1,7 @@
 {
   "name": "react-book-selection-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/Jake-Leicht/book-selection-app.git",
+  "homepage": "https://github.com/Jake-Leicht/book-selection-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
