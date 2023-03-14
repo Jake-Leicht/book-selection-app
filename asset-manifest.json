@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Jake-Leicht/book-selection-app/static/css/main.910951e7.css",
-    "main.js": "/Jake-Leicht/book-selection-app/static/js/main.ee418187.js",
+    "main.css": "/Jake-Leicht/book-selection-app/static/css/main.3ba631a5.css",
+    "main.js": "/Jake-Leicht/book-selection-app/static/js/main.7f8c05c1.js",
+    "static/media/caineMutiny.jpg": "/Jake-Leicht/book-selection-app/static/media/caineMutiny.1dd3ea54f44dac184865.jpg",
+    "static/media/pragmaticProgrammer.jpg": "/Jake-Leicht/book-selection-app/static/media/pragmaticProgrammer.f27d1ae3a2c57f7fe527.jpg",
+    "static/media/verity.jpg": "/Jake-Leicht/book-selection-app/static/media/verity.d5cd9ef092f66f2a1a71.jpg",
+    "static/media/fairyTale.jpg": "/Jake-Leicht/book-selection-app/static/media/fairyTale.5be1ad77f6091c91e457.jpg",
+    "static/media/cleanCode.jpg": "/Jake-Leicht/book-selection-app/static/media/cleanCode.1d248f888e1201e9969a.jpg",
+    "static/media/icon.png": "/Jake-Leicht/book-selection-app/static/media/icon.6dca591e3658782c0d3e.png",
     "index.html": "/Jake-Leicht/book-selection-app/index.html",
-    "main.910951e7.css.map": "/Jake-Leicht/book-selection-app/static/css/main.910951e7.css.map",
-    "main.ee418187.js.map": "/Jake-Leicht/book-selection-app/static/js/main.ee418187.js.map"
+    "main.3ba631a5.css.map": "/Jake-Leicht/book-selection-app/static/css/main.3ba631a5.css.map",
+    "main.7f8c05c1.js.map": "/Jake-Leicht/book-selection-app/static/js/main.7f8c05c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.910951e7.css",
-    "static/js/main.ee418187.js"
+    "static/css/main.3ba631a5.css",
+    "static/js/main.7f8c05c1.js"
   ]
 }
