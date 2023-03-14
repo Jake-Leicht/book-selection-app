@@ -6,7 +6,7 @@
     position: absolute;
     width: 44vw;
     min-width: 260px;
-    height: 42vh;
+    height: 46vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,8 +33,14 @@
     opacity: 0.2;
 }
 
+.modal-content{
+    display: flex;
+    flex-direction: column;
+}
+
 .modal-login-input, .modal-addBook-input{
     width: 80%;
+    max-width: 240px;
     background-color: lightgray;
     color: black;
     border-radius: 12px;

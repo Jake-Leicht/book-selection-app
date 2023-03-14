@@ -3,6 +3,8 @@ import "../styles/index.css";
 import "../styles/book.css";
 
 const Book = (props) => {
+    const imagesFolder = require.context("../../public/images", true);
+
     if((props.title).toLowerCase().includes(props.searchFilter.toLowerCase())){
         return(<div className="book-container" onClick={() => props.selectedBook({
             id: props.id,
@@ -13,7 +15,7 @@ const Book = (props) => {
             yearPublished: props.yearPublished,
             pageCount: props.pageCount,
             genre: props.genre})}>
-        {props.cover === undefined ? <img src={`/images/INF.png`} className="book-cover" alt="Cover"/> : <img src={`/images/${props.cover}`} className="book-cover" alt="Cover"/>}
+        {props.cover === undefined ? <img src={imagesFolder(`./INF.png`)} className="book-cover" alt="Cover"/> : <img src={imagesFolder(`./${props.cover}`)} className="book-cover" alt="Cover"/>}
         <span className="book-title">{props.title}</span>
         <div className="book-filter-container">
             <span className="book-filter">{props.genre}</span>

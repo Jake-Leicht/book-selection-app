@@ -11,6 +11,7 @@ const Modal = (props) => {
         props.setModal(!props.modal);
         setSignInFail(false);
         loginInputReset();
+        signOutFirebase();
     }
 
     const loginInputReset = () => {
@@ -31,6 +32,7 @@ const Modal = (props) => {
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
+            console.log(`Error code: ${errorCode}, Error Message: ${errorMessage}`);
             setSignInFail(true);
         });
     };
@@ -45,7 +47,6 @@ const Modal = (props) => {
     }
 
     if(isAdmin === true){
-        console.log("admin logged in");
         return(<>
             <button onClick={toggleModal} className={props.modal ? "hide-btn" : "generic-btn"}>Open</button>
             {props.modal && (
@@ -53,8 +54,10 @@ const Modal = (props) => {
                 <div onClick={toggleModal} className="overlay"></div>
                 <div className="modal-content">
                     <AddBook/>
-                    <button className="login-btn" onClick={signOutFirebase}>Sign out</button>
-                    <button className="login-btn close-modal" onClick={toggleModal}>Close</button>
+                    <div className="modal-btn-container">
+                        <button className="login-btn" onClick={signOutFirebase}>Sign out</button>
+                        <button className="login-btn close-modal" onClick={toggleModal}>Close</button>
+                    </div>
                 </div>
                 </div>
             )}
