@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Jake-Leicht/book-selection-app.git/static/css/main.910951e7.css",
-    "main.js": "/Jake-Leicht/book-selection-app.git/static/js/main.fb3b7c5c.js",
-    "index.html": "/Jake-Leicht/book-selection-app.git/index.html",
-    "main.910951e7.css.map": "/Jake-Leicht/book-selection-app.git/static/css/main.910951e7.css.map",
-    "main.fb3b7c5c.js.map": "/Jake-Leicht/book-selection-app.git/static/js/main.fb3b7c5c.js.map"
+    "main.css": "/Jake-Leicht/book-selection-app/static/css/main.910951e7.css",
+    "main.js": "/Jake-Leicht/book-selection-app/static/js/main.ee418187.js",
+    "index.html": "/Jake-Leicht/book-selection-app/index.html",
+    "main.910951e7.css.map": "/Jake-Leicht/book-selection-app/static/css/main.910951e7.css.map",
+    "main.ee418187.js.map": "/Jake-Leicht/book-selection-app/static/js/main.ee418187.js.map"
   },
   "entrypoints": [
     "static/css/main.910951e7.css",
-    "static/js/main.fb3b7c5c.js"
+    "static/js/main.ee418187.js"
   ]
 }
