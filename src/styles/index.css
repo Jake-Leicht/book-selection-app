@@ -1,0 +1,143 @@
+:root{
+    --screenWidth: 100vw;
+    --screenHeight: 100vh;
+    --black: #232323;
+    --aqua: aqua;
+    --turquoise: turquoise;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    width: var(--screenWidth);
+    height: var(--screenHeight);
+}
+
+.disable-scroll{
+    overflow: hidden;
+}
+
+.header{
+    background-color: var(--aqua);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1vw;
+}
+
+/* ? Filters */
+.section{
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    padding: 0px 8px;
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.categories{
+    flex: 1 1 0;
+}
+
+.title{
+    font-size: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.form{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid var(--turquoise);
+    display: grid;
+    grid-template-columns: auto;
+    margin: 8px 0px;
+}
+
+.form span{
+    border: 2px solid black;
+    margin: 4px;
+    padding: 4px;
+}
+
+.form label{
+    margin-left: 6px;
+    font-size: 1.0rem;
+}
+
+/* ? Btn container */
+
+.btn-container{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-container button{
+    height: 45%;
+    width: 10%;
+    min-width: 100px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-container button:hover{
+    opacity: 0.2;
+}
+
+.submit-btn{
+    border: 2px solid var(--black);
+    background-color: var(--aqua);
+    color: var(--black);
+}
+
+.clear-btn{
+    color: var(--black);
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.search-input{
+    width: 30vw;
+    min-width: 250px;
+    background-color: lightgray;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 6px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+/* ? SelectedBook CSS*/
+.selectedBook{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+/* ? Responsive */
+@media screen and (max-width: 600px){
+    .categories{
+        flex: 1 1 0;
+    }
+    .title{
+        font-size: 0.92rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    /*Code*/
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+/*Code*/
+}

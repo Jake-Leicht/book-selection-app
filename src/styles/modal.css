@@ -1,0 +1,82 @@
+/* ? Modal*/
+.active-modal {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 255, 0.9);
+    position: absolute;
+    width: 44vw;
+    min-width: 260px;
+    height: 42vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+}
+
+.hide-btn{
+    display: none;
+}
+
+.generic-btn{
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    width: 10vw;
+    min-width: 80px;
+    height: 45%;
+    color: var(--black);
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.generic-btn:hover{
+    opacity: 0.2;
+}
+
+.modal-login-input, .modal-addBook-input{
+    width: 80%;
+    background-color: lightgray;
+    color: black;
+    border-radius: 12px;
+    padding: 6px;
+    font-weight: 600;
+    margin: 6% 0px;
+}
+
+.modal-addBook-input{
+    margin: 2% 0px !important;
+}
+
+.login-btn, .addBook-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--black);
+    color: var(--aqua);
+    width: 10vw;
+    min-width: 80px;
+    font-size: 0.9rem;
+    padding: 6px;
+    margin-left: 12px;
+}
+
+.addBook-btn{
+    color:white;
+    border: 2px solid var(--turquoise);
+}
+
+.login-btn:hover{
+    font-weight: 600;
+}
+
+.error{
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+.addBook-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
